@@ -1,0 +1,2782 @@
+{
+"lixiang": {
+"brand": "lixiang",
+"model": "",
+"avg": 84119,
+"months": [
+90398,
+83924,
+78036
+]
+},
+"ремонт lixiang": {
+"brand": "lixiang",
+"model": "",
+"avg": 418,
+"months": [
+400,
+416,
+438
+]
+},
+"сервис lixiang": {
+"brand": "lixiang",
+"model": "",
+"avg": 496,
+"months": [
+513,
+520,
+455
+]
+},
+"то lixiang": {
+"brand": "lixiang",
+"model": "",
+"avg": 462,
+"months": [
+487,
+427,
+471
+]
+},
+"ремонт лисян": {
+"brand": "lixiang",
+"model": "",
+"avg": 323,
+"months": [
+364,
+263,
+342
+]
+},
+"lixiang l6": {
+"brand": "lixiang",
+"model": "l6",
+"avg": 9279,
+"months": [
+10507,
+9888,
+7441
+]
+},
+"ремонт lixiang l6": {
+"brand": "lixiang",
+"model": "l6",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lixiang l7": {
+"brand": "lixiang",
+"model": "l7",
+"avg": 16385,
+"months": [
+17987,
+16695,
+14472
+]
+},
+"ремонт lixiang l7": {
+"brand": "lixiang",
+"model": "l7",
+"avg": 31,
+"months": [
+15,
+42,
+35
+]
+},
+"lixiang l8": {
+"brand": "lixiang",
+"model": "l8",
+"avg": 2004,
+"months": [
+2373,
+1871,
+1768
+]
+},
+"ремонт lixiang l8": {
+"brand": "lixiang",
+"model": "l8",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lixiang l9": {
+"brand": "lixiang",
+"model": "l9",
+"avg": 15963,
+"months": [
+16999,
+15125,
+15766
+]
+},
+"ремонт lixiang l9": {
+"brand": "lixiang",
+"model": "l9",
+"avg": 20,
+"months": [
+14,
+24,
+22
+]
+},
+"lixiang i6": {
+"brand": "lixiang",
+"model": "i6",
+"avg": 283,
+"months": [
+245,
+359,
+244
+]
+},
+"ремонт lixiang i6": {
+"brand": "lixiang",
+"model": "i6",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lixiang i8": {
+"brand": "lixiang",
+"model": "i8",
+"avg": 136,
+"months": [
+144,
+172,
+92
+]
+},
+"ремонт lixiang i8": {
+"brand": "lixiang",
+"model": "i8",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lixiang mega": {
+"brand": "lixiang",
+"model": "mega",
+"avg": 415,
+"months": [
+445,
+346,
+455
+]
+},
+"ремонт lixiang mega": {
+"brand": "lixiang",
+"model": "mega",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"zeekr": {
+"brand": "zeekr",
+"model": "",
+"avg": 246388,
+"months": [
+262080,
+244959,
+232125
+]
+},
+"ремонт zeekr": {
+"brand": "zeekr",
+"model": "",
+"avg": 446,
+"months": [
+423,
+447,
+467
+]
+},
+"сервис zeekr": {
+"brand": "zeekr",
+"model": "",
+"avg": 396,
+"months": [
+392,
+377,
+420
+]
+},
+"то zeekr": {
+"brand": "zeekr",
+"model": "",
+"avg": 448,
+"months": [
+482,
+421,
+442
+]
+},
+"ремонт зикр": {
+"brand": "zeekr",
+"model": "",
+"avg": 181,
+"months": [
+180,
+157,
+207
+]
+},
+"zeekr 001": {
+"brand": "zeekr",
+"model": "001",
+"avg": 40497,
+"months": [
+46786,
+39362,
+35344
+]
+},
+"ремонт zeekr 001": {
+"brand": "zeekr",
+"model": "001",
+"avg": 100,
+"months": [
+88,
+113,
+100
+]
+},
+"zeekr 007": {
+"brand": "zeekr",
+"model": "007",
+"avg": 6207,
+"months": [
+7479,
+5837,
+5304
+]
+},
+"ремонт zeekr 007": {
+"brand": "zeekr",
+"model": "007",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"zeekr 009": {
+"brand": "zeekr",
+"model": "009",
+"avg": 12617,
+"months": [
+13697,
+12258,
+11895
+]
+},
+"ремонт zeekr 009": {
+"brand": "zeekr",
+"model": "009",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"zeekr 7x": {
+"brand": "zeekr",
+"model": "7x",
+"avg": 7969,
+"months": [
+9102,
+7113,
+7692
+]
+},
+"ремонт zeekr 7x": {
+"brand": "zeekr",
+"model": "7x",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"zeekr x": {
+"brand": "zeekr",
+"model": "x",
+"avg": 11955,
+"months": [
+14323,
+11124,
+10417
+]
+},
+"ремонт zeekr x": {
+"brand": "zeekr",
+"model": "x",
+"avg": 40,
+"months": [
+47,
+43,
+30
+]
+},
+"zeekr 9x": {
+"brand": "zeekr",
+"model": "9x",
+"avg": 49192,
+"months": [
+53695,
+48795,
+45086
+]
+},
+"ремонт zeekr 9x": {
+"brand": "zeekr",
+"model": "9x",
+"avg": 24,
+"months": [
+38,
+16,
+19
+]
+},
+"zeekr 8x": {
+"brand": "zeekr",
+"model": "8x",
+"avg": 42965,
+"months": [
+36934,
+46842,
+45118
+]
+},
+"ремонт zeekr 8x": {
+"brand": "zeekr",
+"model": "8x",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"zeekr mix": {
+"brand": "zeekr",
+"model": "mix",
+"avg": 472,
+"months": [
+542,
+404,
+470
+]
+},
+"ремонт zeekr mix": {
+"brand": "zeekr",
+"model": "mix",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"voyah": {
+"brand": "voyah",
+"model": "",
+"avg": 260311,
+"months": [
+283631,
+249247,
+248055
+]
+},
+"ремонт voyah": {
+"brand": "voyah",
+"model": "",
+"avg": 341,
+"months": [
+344,
+383,
+295
+]
+},
+"сервис voyah": {
+"brand": "voyah",
+"model": "",
+"avg": 469,
+"months": [
+436,
+491,
+480
+]
+},
+"то voyah": {
+"brand": "voyah",
+"model": "",
+"avg": 1093,
+"months": [
+1134,
+1106,
+1039
+]
+},
+"ремонт воя": {
+"brand": "voyah",
+"model": "",
+"avg": 511,
+"months": [
+450,
+510,
+573
+]
+},
+"voyah free": {
+"brand": "voyah",
+"model": "free",
+"avg": 116640,
+"months": [
+132681,
+110424,
+106816
+]
+},
+"ремонт voyah free": {
+"brand": "voyah",
+"model": "free",
+"avg": 197,
+"months": [
+203,
+228,
+159
+]
+},
+"voyah dream": {
+"brand": "voyah",
+"model": "dream",
+"avg": 19322,
+"months": [
+19841,
+18944,
+19182
+]
+},
+"ремонт voyah dream": {
+"brand": "voyah",
+"model": "dream",
+"avg": 29,
+"months": [
+33,
+34,
+21
+]
+},
+"voyah passion": {
+"brand": "voyah",
+"model": "passion",
+"avg": 16256,
+"months": [
+18928,
+17053,
+12786
+]
+},
+"ремонт voyah passion": {
+"brand": "voyah",
+"model": "passion",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"voyah courage": {
+"brand": "voyah",
+"model": "courage",
+"avg": 1162,
+"months": [
+1509,
+1195,
+783
+]
+},
+"ремонт voyah courage": {
+"brand": "voyah",
+"model": "courage",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lynk co": {
+"brand": "lynk",
+"model": "",
+"avg": 55129,
+"months": [
+52210,
+62483,
+50693
+]
+},
+"ремонт lynk co": {
+"brand": "lynk",
+"model": "",
+"avg": 42,
+"months": [
+42,
+45,
+38
+]
+},
+"сервис lynk co": {
+"brand": "lynk",
+"model": "",
+"avg": 84,
+"months": [
+71,
+83,
+99
+]
+},
+"то lynk co": {
+"brand": "lynk",
+"model": "",
+"avg": 171,
+"months": [
+168,
+202,
+144
+]
+},
+"ремонт линк ко": {
+"brand": "lynk",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lynk co 01": {
+"brand": "lynk",
+"model": "01",
+"avg": 738,
+"months": [
+608,
+929,
+678
+]
+},
+"ремонт lynk co 01": {
+"brand": "lynk",
+"model": "01",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lynk co 05": {
+"brand": "lynk",
+"model": "05",
+"avg": 1152,
+"months": [
+1178,
+1210,
+1067
+]
+},
+"ремонт lynk co 05": {
+"brand": "lynk",
+"model": "05",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lynk co 06": {
+"brand": "lynk",
+"model": "06",
+"avg": 5101,
+"months": [
+5392,
+5823,
+4089
+]
+},
+"ремонт lynk co 06": {
+"brand": "lynk",
+"model": "06",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lynk co 07": {
+"brand": "lynk",
+"model": "07",
+"avg": 3060,
+"months": [
+2883,
+3780,
+2517
+]
+},
+"ремонт lynk co 07": {
+"brand": "lynk",
+"model": "07",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lynk co 08": {
+"brand": "lynk",
+"model": "08",
+"avg": 1892,
+"months": [
+1870,
+2091,
+1714
+]
+},
+"ремонт lynk co 08": {
+"brand": "lynk",
+"model": "08",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lynk co 09": {
+"brand": "lynk",
+"model": "09",
+"avg": 3505,
+"months": [
+3150,
+3911,
+3455
+]
+},
+"ремонт lynk co 09": {
+"brand": "lynk",
+"model": "09",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lynk co 900": {
+"brand": "lynk",
+"model": "900",
+"avg": 23410,
+"months": [
+22785,
+26296,
+21149
+]
+},
+"ремонт lynk co 900": {
+"brand": "lynk",
+"model": "900",
+"avg": 20,
+"months": [
+19,
+25,
+15
+]
+},
+"lynk co z10": {
+"brand": "lynk",
+"model": "z10",
+"avg": 210,
+"months": [
+229,
+211,
+189
+]
+},
+"ремонт lynk co z10": {
+"brand": "lynk",
+"model": "z10",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"lynk co 03": {
+"brand": "lynk",
+"model": "03",
+"avg": 858,
+"months": [
+495,
+1029,
+1049
+]
+},
+"ремонт lynk co 03": {
+"brand": "lynk",
+"model": "03",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"geely": {
+"brand": "geely",
+"model": "",
+"avg": 1121910,
+"months": [
+1128118,
+1156103,
+1081510
+]
+},
+"ремонт geely": {
+"brand": "geely",
+"model": "",
+"avg": 2122,
+"months": [
+2055,
+2232,
+2079
+]
+},
+"сервис geely": {
+"brand": "geely",
+"model": "",
+"avg": 2481,
+"months": [
+2409,
+2698,
+2335
+]
+},
+"то geely": {
+"brand": "geely",
+"model": "",
+"avg": 7846,
+"months": [
+8129,
+7983,
+7426
+]
+},
+"ремонт джили": {
+"brand": "geely",
+"model": "",
+"avg": 3855,
+"months": [
+3825,
+4064,
+3677
+]
+},
+"geely ex5": {
+"brand": "geely",
+"model": "ex5",
+"avg": 70534,
+"months": [
+68345,
+66630,
+76627
+]
+},
+"ремонт geely ex5": {
+"brand": "geely",
+"model": "ex5",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"geely ex5 em-i": {
+"brand": "geely",
+"model": "ex5 em-i",
+"avg": 20040,
+"months": [
+17824,
+20320,
+21975
+]
+},
+"ремонт geely ex5 em-i": {
+"brand": "geely",
+"model": "ex5 em-i",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"geely galaxy": {
+"brand": "geely",
+"model": "galaxy",
+"avg": 55334,
+"months": [
+58921,
+50227,
+56853
+]
+},
+"ремонт geely galaxy": {
+"brand": "geely",
+"model": "galaxy",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"geely starship 7": {
+"brand": "geely",
+"model": "starship 7",
+"avg": 22530,
+"months": [
+27533,
+20171,
+19886
+]
+},
+"ремонт geely starship 7": {
+"brand": "geely",
+"model": "starship 7",
+"avg": 12,
+"months": [
+9,
+12,
+14
+]
+},
+"geely galaxy l7": {
+"brand": "geely",
+"model": "galaxy l7",
+"avg": 1932,
+"months": [
+2218,
+2006,
+1571
+]
+},
+"ремонт geely galaxy l7": {
+"brand": "geely",
+"model": "galaxy l7",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"geely galaxy l6": {
+"brand": "geely",
+"model": "galaxy l6",
+"avg": 228,
+"months": [
+277,
+185,
+222
+]
+},
+"ремонт geely galaxy l6": {
+"brand": "geely",
+"model": "galaxy l6",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"geely galaxy e5": {
+"brand": "geely",
+"model": "galaxy e5",
+"avg": 1255,
+"months": [
+1373,
+1040,
+1353
+]
+},
+"ремонт geely galaxy e5": {
+"brand": "geely",
+"model": "galaxy e5",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"geely galaxy e8": {
+"brand": "geely",
+"model": "galaxy e8",
+"avg": 412,
+"months": [
+448,
+444,
+345
+]
+},
+"ремонт geely galaxy e8": {
+"brand": "geely",
+"model": "galaxy e8",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"geely galaxy m9": {
+"brand": "geely",
+"model": "galaxy m9",
+"avg": 5634,
+"months": [
+5908,
+5420,
+5575
+]
+},
+"ремонт geely galaxy m9": {
+"brand": "geely",
+"model": "galaxy m9",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"geely ex2": {
+"brand": "geely",
+"model": "ex2",
+"avg": 6719,
+"months": [
+6625,
+5526,
+8006
+]
+},
+"ремонт geely ex2": {
+"brand": "geely",
+"model": "ex2",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"geely starshine 6": {
+"brand": "geely",
+"model": "starshine 6",
+"avg": 1908,
+"months": [
+2602,
+1887,
+1236
+]
+},
+"ремонт geely starshine 6": {
+"brand": "geely",
+"model": "starshine 6",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"changan": {
+"brand": "changan",
+"model": "",
+"avg": 619832,
+"months": [
+614527,
+624952,
+620018
+]
+},
+"ремонт changan": {
+"brand": "changan",
+"model": "",
+"avg": 612,
+"months": [
+673,
+556,
+608
+]
+},
+"сервис changan": {
+"brand": "changan",
+"model": "",
+"avg": 492,
+"months": [
+448,
+543,
+485
+]
+},
+"то changan": {
+"brand": "changan",
+"model": "",
+"avg": 3081,
+"months": [
+2868,
+3118,
+3258
+]
+},
+"ремонт чанган": {
+"brand": "changan",
+"model": "",
+"avg": 1531,
+"months": [
+1349,
+1663,
+1581
+]
+},
+"changan qiyuan a06": {
+"brand": "changan",
+"model": "qiyuan a06",
+"avg": 19058,
+"months": [
+23064,
+17243,
+16867
+]
+},
+"ремонт changan qiyuan a06": {
+"brand": "changan",
+"model": "qiyuan a06",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"changan qiyuan a07": {
+"brand": "changan",
+"model": "qiyuan a07",
+"avg": 669,
+"months": [
+717,
+670,
+619
+]
+},
+"ремонт changan qiyuan a07": {
+"brand": "changan",
+"model": "qiyuan a07",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"changan qiyuan q05": {
+"brand": "changan",
+"model": "qiyuan q05",
+"avg": 33638,
+"months": [
+40924,
+30209,
+29782
+]
+},
+"ремонт changan qiyuan q05": {
+"brand": "changan",
+"model": "qiyuan q05",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"changan qiyuan q07": {
+"brand": "changan",
+"model": "qiyuan q07",
+"avg": 3593,
+"months": [
+2729,
+3409,
+4640
+]
+},
+"ремонт changan qiyuan q07": {
+"brand": "changan",
+"model": "qiyuan q07",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"changan qiyuan a05": {
+"brand": "changan",
+"model": "qiyuan a05",
+"avg": 689,
+"months": [
+919,
+609,
+540
+]
+},
+"ремонт changan qiyuan a05": {
+"brand": "changan",
+"model": "qiyuan a05",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"changan uni k idd": {
+"brand": "changan",
+"model": "uni k idd",
+"avg": 1420,
+"months": [
+1683,
+1279,
+1297
+]
+},
+"ремонт changan uni k idd": {
+"brand": "changan",
+"model": "uni k idd",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"deepal": {
+"brand": "deepal",
+"model": "",
+"avg": 81765,
+"months": [
+84310,
+80797,
+80187
+]
+},
+"ремонт deepal": {
+"brand": "deepal",
+"model": "",
+"avg": 12,
+"months": [
+12,
+14,
+11
+]
+},
+"сервис deepal": {
+"brand": "deepal",
+"model": "",
+"avg": 45,
+"months": [
+48,
+37,
+51
+]
+},
+"то deepal": {
+"brand": "deepal",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"ремонт дипал": {
+"brand": "deepal",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"deepal s07": {
+"brand": "deepal",
+"model": "s07",
+"avg": 18080,
+"months": [
+19927,
+18321,
+15991
+]
+},
+"ремонт deepal s07": {
+"brand": "deepal",
+"model": "s07",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"deepal l07": {
+"brand": "deepal",
+"model": "l07",
+"avg": 215,
+"months": [
+192,
+264,
+190
+]
+},
+"ремонт deepal l07": {
+"brand": "deepal",
+"model": "l07",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"deepal s05": {
+"brand": "deepal",
+"model": "s05",
+"avg": 5810,
+"months": [
+5983,
+6171,
+5275
+]
+},
+"ремонт deepal s05": {
+"brand": "deepal",
+"model": "s05",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"deepal g318": {
+"brand": "deepal",
+"model": "g318",
+"avg": 32209,
+"months": [
+33172,
+33599,
+29855
+]
+},
+"ремонт deepal g318": {
+"brand": "deepal",
+"model": "g318",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"byd": {
+"brand": "byd",
+"model": "",
+"avg": 248736,
+"months": [
+280509,
+234182,
+231518
+]
+},
+"ремонт byd": {
+"brand": "byd",
+"model": "",
+"avg": 364,
+"months": [
+390,
+371,
+332
+]
+},
+"сервис byd": {
+"brand": "byd",
+"model": "",
+"avg": 229,
+"months": [
+273,
+229,
+186
+]
+},
+"то byd": {
+"brand": "byd",
+"model": "",
+"avg": 282,
+"months": [
+373,
+244,
+230
+]
+},
+"ремонт бид": {
+"brand": "byd",
+"model": "",
+"avg": 48,
+"months": [
+32,
+62,
+51
+]
+},
+"byd song plus": {
+"brand": "byd",
+"model": "song plus",
+"avg": 13083,
+"months": [
+15435,
+12706,
+11109
+]
+},
+"ремонт byd song plus": {
+"brand": "byd",
+"model": "song plus",
+"avg": 21,
+"months": [
+22,
+26,
+14
+]
+},
+"byd song l": {
+"brand": "byd",
+"model": "song l",
+"avg": 2107,
+"months": [
+2423,
+1767,
+2132
+]
+},
+"ремонт byd song l": {
+"brand": "byd",
+"model": "song l",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"byd han": {
+"brand": "byd",
+"model": "han",
+"avg": 13299,
+"months": [
+14807,
+13710,
+11379
+]
+},
+"ремонт byd han": {
+"brand": "byd",
+"model": "han",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"byd seal": {
+"brand": "byd",
+"model": "seal",
+"avg": 7785,
+"months": [
+8850,
+7548,
+6956
+]
+},
+"ремонт byd seal": {
+"brand": "byd",
+"model": "seal",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"byd tang": {
+"brand": "byd",
+"model": "tang",
+"avg": 8896,
+"months": [
+10316,
+8521,
+7852
+]
+},
+"ремонт byd tang": {
+"brand": "byd",
+"model": "tang",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"byd qin plus": {
+"brand": "byd",
+"model": "qin plus",
+"avg": 4185,
+"months": [
+5151,
+3876,
+3528
+]
+},
+"ремонт byd qin plus": {
+"brand": "byd",
+"model": "qin plus",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"byd qin l": {
+"brand": "byd",
+"model": "qin l",
+"avg": 1370,
+"months": [
+1697,
+1278,
+1136
+]
+},
+"ремонт byd qin l": {
+"brand": "byd",
+"model": "qin l",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"byd sealion 07": {
+"brand": "byd",
+"model": "sealion 07",
+"avg": 142,
+"months": [
+137,
+163,
+127
+]
+},
+"ремонт byd sealion 07": {
+"brand": "byd",
+"model": "sealion 07",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"byd atto 3": {
+"brand": "byd",
+"model": "atto 3",
+"avg": 713,
+"months": [
+915,
+484,
+739
+]
+},
+"ремонт byd atto 3": {
+"brand": "byd",
+"model": "atto 3",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"byd seagull": {
+"brand": "byd",
+"model": "seagull",
+"avg": 16172,
+"months": [
+19080,
+13272,
+16164
+]
+},
+"ремонт byd seagull": {
+"brand": "byd",
+"model": "seagull",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"byd yuan up": {
+"brand": "byd",
+"model": "yuan up",
+"avg": 11568,
+"months": [
+14736,
+9553,
+10416
+]
+},
+"ремонт byd yuan up": {
+"brand": "byd",
+"model": "yuan up",
+"avg": 3,
+"months": [
+0,
+0,
+10
+]
+},
+"byd song pro": {
+"brand": "byd",
+"model": "song pro",
+"avg": 1380,
+"months": [
+1442,
+1432,
+1266
+]
+},
+"ремонт byd song pro": {
+"brand": "byd",
+"model": "song pro",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"denza": {
+"brand": "denza",
+"model": "",
+"avg": 16787,
+"months": [
+17935,
+16392,
+16033
+]
+},
+"ремонт denza": {
+"brand": "denza",
+"model": "",
+"avg": 20,
+"months": [
+29,
+21,
+10
+]
+},
+"сервис denza": {
+"brand": "denza",
+"model": "",
+"avg": 12,
+"months": [
+13,
+14,
+9
+]
+},
+"то denza": {
+"brand": "denza",
+"model": "",
+"avg": 27,
+"months": [
+19,
+46,
+17
+]
+},
+"ремонт денза": {
+"brand": "denza",
+"model": "",
+"avg": 9,
+"months": [
+28,
+0,
+0
+]
+},
+"denza n7": {
+"brand": "denza",
+"model": "n7",
+"avg": 521,
+"months": [
+559,
+529,
+474
+]
+},
+"ремонт denza n7": {
+"brand": "denza",
+"model": "n7",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"denza n8": {
+"brand": "denza",
+"model": "n8",
+"avg": 409,
+"months": [
+240,
+569,
+419
+]
+},
+"ремонт denza n8": {
+"brand": "denza",
+"model": "n8",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"denza n9": {
+"brand": "denza",
+"model": "n9",
+"avg": 4746,
+"months": [
+5596,
+4488,
+4154
+]
+},
+"ремонт denza n9": {
+"brand": "denza",
+"model": "n9",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"denza d9": {
+"brand": "denza",
+"model": "d9",
+"avg": 1733,
+"months": [
+1664,
+1735,
+1801
+]
+},
+"ремонт denza d9": {
+"brand": "denza",
+"model": "d9",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"denza z9gt": {
+"brand": "denza",
+"model": "z9gt",
+"avg": 495,
+"months": [
+483,
+522,
+480
+]
+},
+"ремонт denza z9gt": {
+"brand": "denza",
+"model": "z9gt",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"fangchengbao": {
+"brand": "fangchengbao",
+"model": "",
+"avg": 2946,
+"months": [
+2957,
+3134,
+2746
+]
+},
+"ремонт fangchengbao": {
+"brand": "fangchengbao",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"сервис fangchengbao": {
+"brand": "fangchengbao",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"то fangchengbao": {
+"brand": "fangchengbao",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"ремонт фанчэнбао": {
+"brand": "fangchengbao",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"fangchengbao leopard 5": {
+"brand": "fangchengbao",
+"model": "leopard 5",
+"avg": 654,
+"months": [
+728,
+583,
+652
+]
+},
+"ремонт fangchengbao leopard 5": {
+"brand": "fangchengbao",
+"model": "leopard 5",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"fangchengbao leopard 8": {
+"brand": "fangchengbao",
+"model": "leopard 8",
+"avg": 282,
+"months": [
+323,
+308,
+214
+]
+},
+"ремонт fangchengbao leopard 8": {
+"brand": "fangchengbao",
+"model": "leopard 8",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"fangchengbao bao 5": {
+"brand": "fangchengbao",
+"model": "bao 5",
+"avg": 169,
+"months": [
+104,
+298,
+104
+]
+},
+"ремонт fangchengbao bao 5": {
+"brand": "fangchengbao",
+"model": "bao 5",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"fangchengbao tai 3": {
+"brand": "fangchengbao",
+"model": "tai 3",
+"avg": 9,
+"months": [
+9,
+8,
+10
+]
+},
+"ремонт fangchengbao tai 3": {
+"brand": "fangchengbao",
+"model": "tai 3",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"fangchengbao tai 7": {
+"brand": "fangchengbao",
+"model": "tai 7",
+"avg": 8,
+"months": [
+7,
+7,
+9
+]
+},
+"ремонт fangchengbao tai 7": {
+"brand": "fangchengbao",
+"model": "tai 7",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"avatr": {
+"brand": "avatr",
+"model": "",
+"avg": 42235,
+"months": [
+45049,
+41838,
+39817
+]
+},
+"ремонт avatr": {
+"brand": "avatr",
+"model": "",
+"avg": 27,
+"months": [
+15,
+35,
+32
+]
+},
+"сервис avatr": {
+"brand": "avatr",
+"model": "",
+"avg": 37,
+"months": [
+25,
+37,
+50
+]
+},
+"то avatr": {
+"brand": "avatr",
+"model": "",
+"avg": 40,
+"months": [
+37,
+41,
+41
+]
+},
+"ремонт аватр": {
+"brand": "avatr",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"avatr 06": {
+"brand": "avatr",
+"model": "06",
+"avg": 374,
+"months": [
+361,
+358,
+404
+]
+},
+"ремонт avatr 06": {
+"brand": "avatr",
+"model": "06",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"avatr 07": {
+"brand": "avatr",
+"model": "07",
+"avg": 3703,
+"months": [
+3389,
+3888,
+3831
+]
+},
+"ремонт avatr 07": {
+"brand": "avatr",
+"model": "07",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"avatr 11": {
+"brand": "avatr",
+"model": "11",
+"avg": 10656,
+"months": [
+12316,
+10004,
+9648
+]
+},
+"ремонт avatr 11": {
+"brand": "avatr",
+"model": "11",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"avatr 12": {
+"brand": "avatr",
+"model": "12",
+"avg": 7756,
+"months": [
+8486,
+8043,
+6740
+]
+},
+"ремонт avatr 12": {
+"brand": "avatr",
+"model": "12",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"xiaomi su7": {
+"brand": "xiaomi",
+"model": "su7",
+"avg": 20164,
+"months": [
+19785,
+22722,
+17984
+]
+},
+"ремонт xiaomi": {
+"brand": "xiaomi",
+"model": "",
+"avg": 9767,
+"months": [
+9882,
+9926,
+9494
+]
+},
+"сервис xiaomi": {
+"brand": "xiaomi",
+"model": "",
+"avg": 3018,
+"months": [
+2951,
+3013,
+3089
+]
+},
+"то xiaomi": {
+"brand": "xiaomi",
+"model": "",
+"avg": 5091,
+"months": [
+4685,
+5502,
+5086
+]
+},
+"ремонт сяоми su7": {
+"brand": "xiaomi",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"ремонт xiaomi su7": {
+"brand": "xiaomi",
+"model": "su7",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"xiaomi yu7": {
+"brand": "xiaomi",
+"model": "yu7",
+"avg": 14054,
+"months": [
+14994,
+15463,
+11704
+]
+},
+"ремонт xiaomi yu7": {
+"brand": "xiaomi",
+"model": "yu7",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"aito": {
+"brand": "aito",
+"model": "",
+"avg": 37783,
+"months": [
+47961,
+35158,
+30231
+]
+},
+"ремонт aito": {
+"brand": "aito",
+"model": "",
+"avg": 30,
+"months": [
+22,
+46,
+22
+]
+},
+"сервис aito": {
+"brand": "aito",
+"model": "",
+"avg": 63,
+"months": [
+70,
+51,
+67
+]
+},
+"то aito": {
+"brand": "aito",
+"model": "",
+"avg": 104,
+"months": [
+104,
+89,
+118
+]
+},
+"ремонт аито": {
+"brand": "aito",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"aito m5": {
+"brand": "aito",
+"model": "m5",
+"avg": 7762,
+"months": [
+9031,
+7963,
+6293
+]
+},
+"ремонт aito m5": {
+"brand": "aito",
+"model": "m5",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"aito m7": {
+"brand": "aito",
+"model": "m7",
+"avg": 5873,
+"months": [
+7254,
+5565,
+4800
+]
+},
+"ремонт aito m7": {
+"brand": "aito",
+"model": "m7",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"aito m8": {
+"brand": "aito",
+"model": "m8",
+"avg": 1284,
+"months": [
+1470,
+1255,
+1127
+]
+},
+"ремонт aito m8": {
+"brand": "aito",
+"model": "m8",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"aito m9": {
+"brand": "aito",
+"model": "m9",
+"avg": 8664,
+"months": [
+13109,
+6579,
+6304
+]
+},
+"ремонт aito m9": {
+"brand": "aito",
+"model": "m9",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"exlantix": {
+"brand": "exlantix",
+"model": "",
+"avg": 96565,
+"months": [
+90498,
+98637,
+100561
+]
+},
+"ремонт exlantix": {
+"brand": "exlantix",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"сервис exlantix": {
+"brand": "exlantix",
+"model": "",
+"avg": 68,
+"months": [
+52,
+70,
+83
+]
+},
+"то exlantix": {
+"brand": "exlantix",
+"model": "",
+"avg": 292,
+"months": [
+278,
+281,
+316
+]
+},
+"ремонт экслантикс": {
+"brand": "exlantix",
+"model": "",
+"avg": 6,
+"months": [
+19,
+0,
+0
+]
+},
+"exlantix et": {
+"brand": "exlantix",
+"model": "et",
+"avg": 41487,
+"months": [
+43185,
+40008,
+41268
+]
+},
+"ремонт exlantix et": {
+"brand": "exlantix",
+"model": "et",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"exlantix es": {
+"brand": "exlantix",
+"model": "es",
+"avg": 5046,
+"months": [
+5786,
+4846,
+4507
+]
+},
+"ремонт exlantix es": {
+"brand": "exlantix",
+"model": "es",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"tank hi4": {
+"brand": "tank",
+"model": "",
+"avg": 1734,
+"months": [
+1758,
+2048,
+1397
+]
+},
+"ремонт tank": {
+"brand": "tank",
+"model": "",
+"avg": 512,
+"months": [
+413,
+502,
+622
+]
+},
+"сервис tank": {
+"brand": "tank",
+"model": "",
+"avg": 456,
+"months": [
+498,
+379,
+490
+]
+},
+"то tank": {
+"brand": "tank",
+"model": "",
+"avg": 1424,
+"months": [
+1257,
+1500,
+1515
+]
+},
+"ремонт танк гибрид": {
+"brand": "tank",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"tank 500 hi4": {
+"brand": "tank",
+"model": "500 hi4",
+"avg": 615,
+"months": [
+622,
+765,
+459
+]
+},
+"ремонт tank 500 hi4": {
+"brand": "tank",
+"model": "500 hi4",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"tank 400 hi4": {
+"brand": "tank",
+"model": "400 hi4",
+"avg": 378,
+"months": [
+365,
+462,
+307
+]
+},
+"ремонт tank 400 hi4": {
+"brand": "tank",
+"model": "400 hi4",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"gac": {
+"brand": "gac",
+"model": "",
+"avg": 442538,
+"months": [
+444018,
+443058,
+440539
+]
+},
+"ремонт gac": {
+"brand": "gac",
+"model": "",
+"avg": 307,
+"months": [
+323,
+265,
+332
+]
+},
+"сервис gac": {
+"brand": "gac",
+"model": "",
+"avg": 707,
+"months": [
+663,
+702,
+755
+]
+},
+"то gac": {
+"brand": "gac",
+"model": "",
+"avg": 2278,
+"months": [
+2257,
+2280,
+2297
+]
+},
+"ремонт гак": {
+"brand": "gac",
+"model": "",
+"avg": 125,
+"months": [
+131,
+144,
+101
+]
+},
+"gac s7": {
+"brand": "gac",
+"model": "s7",
+"avg": 51273,
+"months": [
+58220,
+49178,
+46422
+]
+},
+"ремонт gac s7": {
+"brand": "gac",
+"model": "s7",
+"avg": 15,
+"months": [
+8,
+11,
+25
+]
+},
+"gac aion": {
+"brand": "gac",
+"model": "aion",
+"avg": 26308,
+"months": [
+30626,
+24119,
+24180
+]
+},
+"ремонт gac aion": {
+"brand": "gac",
+"model": "aion",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"hongqi": {
+"brand": "hongqi",
+"model": "",
+"avg": 129789,
+"months": [
+122719,
+133890,
+132757
+]
+},
+"ремонт hongqi": {
+"brand": "hongqi",
+"model": "",
+"avg": 127,
+"months": [
+145,
+128,
+107
+]
+},
+"сервис hongqi": {
+"brand": "hongqi",
+"model": "",
+"avg": 155,
+"months": [
+122,
+161,
+183
+]
+},
+"то hongqi": {
+"brand": "hongqi",
+"model": "",
+"avg": 475,
+"months": [
+493,
+492,
+439
+]
+},
+"ремонт хончи": {
+"brand": "hongqi",
+"model": "",
+"avg": 76,
+"months": [
+67,
+91,
+70
+]
+},
+"hongqi eh7": {
+"brand": "hongqi",
+"model": "eh7",
+"avg": 77,
+"months": [
+71,
+77,
+84
+]
+},
+"ремонт hongqi eh7": {
+"brand": "hongqi",
+"model": "eh7",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"hongqi e hs9": {
+"brand": "hongqi",
+"model": "e hs9",
+"avg": 4593,
+"months": [
+5188,
+4530,
+4062
+]
+},
+"ремонт hongqi e hs9": {
+"brand": "hongqi",
+"model": "e hs9",
+"avg": 7,
+"months": [
+15,
+7,
+0
+]
+},
+"leapmotor": {
+"brand": "leapmotor",
+"model": "",
+"avg": 13078,
+"months": [
+9744,
+11413,
+18078
+]
+},
+"ремонт leapmotor": {
+"brand": "leapmotor",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"сервис leapmotor": {
+"brand": "leapmotor",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"то leapmotor": {
+"brand": "leapmotor",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"ремонт липмотор": {
+"brand": "leapmotor",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"leapmotor c10": {
+"brand": "leapmotor",
+"model": "c10",
+"avg": 422,
+"months": [
+375,
+414,
+478
+]
+},
+"ремонт leapmotor c10": {
+"brand": "leapmotor",
+"model": "c10",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"leapmotor c11": {
+"brand": "leapmotor",
+"model": "c11",
+"avg": 869,
+"months": [
+927,
+852,
+828
+]
+},
+"ремонт leapmotor c11": {
+"brand": "leapmotor",
+"model": "c11",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"leapmotor c16": {
+"brand": "leapmotor",
+"model": "c16",
+"avg": 570,
+"months": [
+644,
+546,
+521
+]
+},
+"ремонт leapmotor c16": {
+"brand": "leapmotor",
+"model": "c16",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"rox 01": {
+"brand": "rox",
+"model": "",
+"avg": 12194,
+"months": [
+11058,
+15115,
+10410
+]
+},
+"ремонт rox 01": {
+"brand": "rox",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"сервис rox 01": {
+"brand": "rox",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+},
+"то rox 01": {
+"brand": "rox",
+"model": "",
+"avg": 15,
+"months": [
+0,
+32,
+12
+]
+},
+"ремонт рокс 01": {
+"brand": "rox",
+"model": "",
+"avg": 0,
+"months": [
+0,
+0,
+0
+]
+}
+}
