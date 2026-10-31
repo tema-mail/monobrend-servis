@@ -2,7 +2,7 @@
 // base – префикс адресов на Pages (по умолчанию /monobrend-servis).
 import { mkdirSync, writeFileSync, rmSync } from 'node:fs';
 import { dirname, join } from 'node:path';
-import { BRANDS, CITY, features } from './data/brands.mjs';
+import { BRANDS, CITY, DEMAND_MIN, features } from './data/brands.mjs';
 import { GROUPS, SERVICES } from './data/services.mjs';
 import { page, intro, block, hero, faq, form, cta, steps, signs, why, reviews, priceTable, askPrice, askTime, ask, ptLine, esc, DATE } from './src/render.mjs';
 
@@ -22,7 +22,7 @@ for (const brand of BRANDS) {
   const applicable = (s) => brand.models.filter((m) => features(m).has(s.req));
   const svcs = SERVICES.filter((s) => applicable(s).length);
   const msPages = []; // [model, service]
-  for (const m of brand.models) for (const s of svcs) if (s.model && features(m).has(s.req)) msPages.push([m, s]);
+  for (const m of brand.models) for (const s of svcs) if (s.model && (m.d ?? 0) >= DEMAND_MIN && features(m).has(s.req)) msPages.push([m, s]);
   const hasMS = (m, s) => msPages.some(([a, b]) => a === m && b === s);
   const tree = [];
   const add = (path, type, html) => { write(`${brand.slug}${path}`, html); tree.push([path, type]); };
@@ -80,6 +80,7 @@ for (const brand of BRANDS) {
           `<h2>Все работы по ${esc(M)}</h2><div class="w-grid" style="--cols:3;--cols-m:2">${GROUPS.filter((g) => ms.some((s) => s.group === g.slug && g.slug !== 'maintenance')).map((g) => `<article class="w-card"><h3>${esc(g.name)}</h3><p>${ms.filter((s) => s.group === g.slug).map((s) => `<a href="${L(hasMS(m, s) ? `/models/${m.slug}/${s.slug}/` : svcPath(s))}">${esc(s.name)}</a>`).join(', ')}</p></article>`).join('')}</div>`),
         cta('3а', `Записаться на диагностику ${M} – после неё назовём точную цену ремонта.`),
         reviews(4, brand, ` ${m.name}`),
+        `<p class="w-wrap w-note">Спрос «${esc(M)}» по Wordstat РФ: ${m.d ?? 'не собран'} в месяц (июль–сентябрь 2026). ${(m.d ?? 0) >= DEMAND_MIN ? 'Частые работы вынесены отдельными страницами.' : `Ниже порога ${DEMAND_MIN} – отдельных страниц работ нет, всё на этой странице.`}</p>`,
         faq(5, [[`Обслуживаете ${M}, привезённый из Китая?`, 'Да. Русифицируем, обновляем и обслуживаем по регламенту производителя.'], [`Где найти регламент ТО ${M}?`, 'В сервисной книжке или в меню машины. Если книжки нет, составим список работ по пробегу.']], M),
         form(6, { title: `Записаться на сервис ${M}`, what: `${M}, год, пробег` }),
       ],
@@ -100,7 +101,7 @@ for (const brand of BRANDS) {
         hero(1, { h1: `${s.name} ${M}`, sub: fill(s.lead, M), bullets: [`<b>Цена</b> – ${askPrice()}`, `<b>Срок</b> – ${askTime()}`, `<b>Гарантия</b> – ${ask('срок гарантии')}`], photo: `${s.name} на ${M}: процесс работы в боксе`, alt: `${s.name} ${M}` }),
         block(2, `Особенности ${m.name}`, `Чем эта работа на ${M} отличается от других машин?`, 'тип привода и устройство модели',
           `<h2>Что важно знать про ${esc(M)}</h2><p>${esc(m.note)} ${esc(cap(ptLine(m)))}.</p><p>${esc(modelNote(m, s, M))}</p>${m.check ? `<p>${ask(`подтвердить данные по ${M}: версии, объёмы, регламент`)}</p>` : ''}
-<p class="w-note">Этот блок отличает страницу от соседних моделей. После «да» владельца сюда идут факты по модели: объёмы, регламент, типовые неисправности из практики сервиса.</p>`),
+<p class="w-note">Спрос «${esc(M)}» по Wordstat РФ: ${m.d ?? 'не собран'} в месяц (июль–сентябрь 2026). Этот блок отличает страницу от соседних моделей. После «да» владельца сюда идут факты по модели: объёмы, регламент, типовые неисправности из практики сервиса.</p>`),
         signs(3, s.signs, `Когда пора: признаки`),
         steps(4, s.steps, `Как делаем: ${s.name.toLowerCase()} ${M}`),
         cta('4а', `${s.name} ${M}: запишитесь – назовём цену до приезда.`),
@@ -189,7 +190,7 @@ writeFileSync(join(OUT, 'index.html'), `<!doctype html><html lang="ru"><head><me
 <style>body{font:16px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;max-width:980px;margin:0 auto;padding:24px 16px 80px;color:#141414}h1{font-size:30px;line-height:1.2}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}code{background:#f2f2f2;padding:1px 5px;border-radius:4px}.box{border:1px solid #ccc;border-radius:8px;padding:16px 18px;margin:20px 0}a{color:#141414}</style></head><body>
 <p>Прототипы · ${DATE} · чёрно-белые, без дизайна · закрыты от поиска</p>
 <h1>Моносайты сервиса: ${BRANDS.map((b) => esc(b.name)).join(', ')}</h1>
-<p>Устроены по образцу минской сети (lixiangminsk.by и соседей), но сделаны честнее. Geely и Changan – только гибриды и электромобили, бензиновые модели не берём. Страница «модель × услуга» создаётся только там, где работа подходит этой силовой установке: у электрических Zeekr нет замены масла в двигателе, у Lixiang нет коробки передач. Город сейчас «${CITY.name}» – меняется одной строкой. Цены, сроки, гарантии и реквизиты не придуманы, вместо них стоят метки «запросить». Включите «Логика блоков» в верхней панели, чтобы увидеть, зачем нужен каждый блок.</p>
+<p>Устроены по образцу минской сети (lixiangminsk.by и соседей), но сделаны честнее. Geely, Changan и GAC – только гибриды и электромобили, бензиновые модели не берём. Страница «модель × услуга» создаётся только там, где работа подходит этой силовой установке: у электрических Zeekr нет замены масла в двигателе, у Lixiang нет коробки передач. Город сейчас «${CITY.name}» – меняется одной строкой. Цены, сроки, гарантии и реквизиты не придуманы, вместо них стоят метки «запросить». Включите «Логика блоков» в верхней панели, чтобы увидеть, зачем нужен каждый блок.</p>
 <table><thead><tr><th>Сайт</th><th>Моделей</th><th>Услуг марки</th><th>Модель × услуга</th><th>Всего страниц</th><th>Ссылки</th></tr></thead><tbody>
 ${stats.map((s) => `<tr><td><b>${esc(s.brand.site)}</b><br><small>образец: ${esc(s.brand.competitor)}</small></td><td>${s.models}</td><td>${s.svcs}</td><td>${s.ms}</td><td>${s.total}</td><td><a href="${BASE}/${s.brand.slug}/">главная</a> · <a href="${BASE}/${s.brand.slug}/sitemap/">карта сайта</a></td></tr>`).join('')}
 <tr><td><b>Итого</b></td><td>${stats.reduce((a, s) => a + s.models, 0)}</td><td></td><td>${stats.reduce((a, s) => a + s.ms, 0)}</td><td>${stats.reduce((a, s) => a + s.total, 0)}</td><td></td></tr></tbody></table>
@@ -207,8 +208,8 @@ ${stats.map((s) => `<tr><td><b>${esc(s.brand.site)}</b><br><small>образец
 <li>Город главного сайта: ${CITY.name}, Новосибирск или другой? Где есть реальные точки или партнёры – только туда города.</li>
 <li>Название сервиса и домены (сейчас рабочие «${stats.map((s) => esc(s.brand.site)).join('», «')}»).</li>
 <li>Цены, сроки, гарантия, оборудование, допуск к высокому напряжению, реквизиты – метки «запросить» на страницах.</li>
-<li>Страницы «модель × услуга» – кандидаты. Оставляем те, у которых есть спрос по Wordstat, остальные идут строкой на странице модели. Нужен съём Wordstat (платно, смету назову).</li>
-<li>Модели с пометкой «подтвердить» (новые i6, i8, MEGA, Zeekr 9X, Lynk 07–900, Z10, почти все Geely Galaxy, Changan iDD, Qiyuan и Deepal): версии, привод и пневмоподвеску сверить по документам.</li>
+<li>Страницы «модель × услуга» есть только у моделей с интересом от ${DEMAND_MIN} в месяц по Wordstat РФ (июль–сентябрь 2026, данные в репо docs/spros). У остальных работы списком на странице модели.</li>
+<li>Модели с пометкой «подтвердить» – большинство новых моделей: версии, привод и пневмоподвеску сверить по документам.</li>
 </ol></div>
 </body></html>`);
 console.log(JSON.stringify(stats.map((s) => ({ site: s.brand.slug, total: s.total, ...s.counts, ms: s.ms }))));
