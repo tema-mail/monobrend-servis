@@ -61,6 +61,38 @@ export const BRANDS = [
       { slug: 'z10', name: 'Z10', body: 'седан', pt: ['bev'], air: 'part', check: true, note: 'Электрический седан на платформе SEA, как у Zeekr.' },
     ],
   },
+  // Geely и Changan – только электромобили и гибриды (решение владельца 01.11.2026: машины только с ДВС не берём).
+  {
+    slug: 'geely', evOnly: true, name: 'Geely', ru: 'Джили', alt: ['Geely Galaxy', 'Джили Галакси', 'Джилли'],
+    site: 'GEELY EV SERVICE', competitor: 'geely-master.by, tochka-geely.by, galaxy-service.by',
+    about: 'Geely – крупнейшая частная автогруппа Китая. Электромобили и гибриды марки выходят в линейке Galaxy: подключаемые гибриды на установках Thor и EM-i и электромобили на платформе GEA. Машины только с бензиновым двигателем (Monjaro, Atlas, Coolray и другие) этот сервис не обслуживает.',
+    models: [
+      { slug: 'galaxy-e5', name: 'Galaxy E5', body: 'кроссовер', pt: ['bev'], air: 'no', note: 'Электрический кроссовер на платформе GEA. В России продаётся как Geely EX5.' },
+      { slug: 'galaxy-e8', name: 'Galaxy E8', body: 'седан', pt: ['bev'], air: 'no', check: true, note: 'Электрический седан бизнес-класса.' },
+      { slug: 'galaxy-l6', name: 'Galaxy L6', body: 'седан', pt: ['phev'], air: 'no', gearbox: true, check: true, note: 'Седан с подключаемой гибридной установкой и гибридной коробкой DHT.' },
+      { slug: 'galaxy-l7', name: 'Galaxy L7', body: 'кроссовер', pt: ['phev'], air: 'no', gearbox: true, check: true, note: 'Кроссовер с подключаемой гибридной установкой и гибридной коробкой DHT.' },
+      { slug: 'starship-7', name: 'Galaxy Starship 7', body: 'кроссовер', pt: ['phev'], air: 'no', check: true, note: 'Кроссовер с гибридной установкой EM-i.' },
+      { slug: 'starshine-6', name: 'Galaxy Starshine 6', body: 'седан', pt: ['phev'], air: 'no', check: true, note: 'Седан с гибридной установкой EM-i.' },
+      { slug: 'galaxy-m9', name: 'Galaxy M9', body: 'большой кроссовер', pt: ['phev'], air: 'part', check: true, note: 'Флагманский гибридный кроссовер линейки Galaxy.' },
+      { slug: 'ex2', name: 'EX2', body: 'компактный кроссовер', pt: ['bev'], air: 'no', check: true, note: 'Компактный электромобиль, в Китае – Xingyuan.' },
+    ],
+  },
+  {
+    slug: 'changan', evOnly: true, name: 'Changan', ru: 'Чанган', alt: ['Чанган Циюань', 'Changan Qiyuan', 'Deepal', 'Дипал'],
+    site: 'CHANGAN EV SERVICE', competitor: 'монобренда в Минске нет, в топе официальный changan.by и мультибренды',
+    about: 'Changan – государственный автоконцерн Китая. Гибриды и электромобили выходят под марками Changan (версии iDD), Qiyuan и Deepal: электромобили, последовательные гибриды с бензиновым генератором и подключаемые гибриды. Машины только с бензиновым двигателем (CS35, CS55, UNI-V без iDD и другие) этот сервис не обслуживает.',
+    models: [
+      { slug: 'uni-k-idd', name: 'UNI-K iDD', body: 'кроссовер', pt: ['phev'], air: 'no', gearbox: true, check: true, note: 'Подключаемый гибрид с гибридной коробкой.' },
+      { slug: 'qiyuan-a05', name: 'Qiyuan A05', body: 'седан', pt: ['phev'], air: 'no', check: true, note: 'Седан с подключаемой гибридной установкой.' },
+      { slug: 'qiyuan-a06', name: 'Qiyuan A06', body: 'седан', pt: ['bev', 'erev'], air: 'no', check: true, note: 'Седан в версиях электромобиль и с бензиновым генератором.' },
+      { slug: 'qiyuan-a07', name: 'Qiyuan A07', body: 'седан', pt: ['bev', 'erev'], air: 'no', check: true, note: 'Седан в версиях электромобиль и с бензиновым генератором.' },
+      { slug: 'qiyuan-q05', name: 'Qiyuan Q05', body: 'компактный кроссовер', pt: ['phev', 'bev'], air: 'no', check: true, note: 'Компактный кроссовер – подключаемый гибрид или электромобиль.' },
+      { slug: 'qiyuan-q07', name: 'Qiyuan Q07', body: 'кроссовер', pt: ['erev', 'bev'], air: 'no', check: true, note: 'Кроссовер с бензиновым генератором или электромобиль.' },
+      { slug: 'deepal-s7', name: 'Deepal S7', body: 'кроссовер', pt: ['bev', 'erev'], air: 'no', check: true, note: 'Кроссовер Deepal в версиях электромобиль и с генератором. В России продаётся как Deepal S07.' },
+      { slug: 'deepal-sl03', name: 'Deepal SL03', body: 'седан', pt: ['bev', 'erev'], air: 'no', check: true, note: 'Седан Deepal в версиях электромобиль и с генератором. В России продаётся как Deepal L07.' },
+      { slug: 'deepal-g318', name: 'Deepal G318', body: 'внедорожник', pt: ['erev'], air: 'no', check: true, note: 'Рамный внедорожник с бензиновым генератором.' },
+    ],
+  },
 ];
 
 // Признаки модели для фильтра услуг.
