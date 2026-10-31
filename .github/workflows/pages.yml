@@ -21,7 +21,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node build.mjs /monobrend-servis && printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt
+      - run: |
+          node build.mjs /monobrend-servis
+          printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
